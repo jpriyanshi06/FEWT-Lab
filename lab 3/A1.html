@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num1=parseFloat(prompt("enter num1 : "));
+        let num2=parseFloat(prompt("enter num2 : "));
+
+        if(num1>num2){
+            let a=prompt("enter what you want to perform(+,-,*,/,%)");
+            if(a=='+'){
+                alert("addition of num :"+(num1+num2));
+            }
+            else if(a=='-'){
+                 alert("subtraction of num :"+(num1-num2));
+            }
+            else if(a=='/'){
+                 alert("dividion of num :"+(num1/num2));
+            }
+            else if(a=='*'){
+                 alert("multiplication of num :"+(num1*num2));
+            }
+            else if(a=='%'){
+                 alert("modulo of num :"+(num1%num2));
+            }
+        }
+        else{
+            alert("num1 is not grater than num2");
+        }
+
+    </script>
+</body>
+</html>
