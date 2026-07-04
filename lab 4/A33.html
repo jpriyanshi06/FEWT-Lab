@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let n=parseInt(prompt("enter num : "));
+      for(i=0;i<n;i++){
+         let ans=1;
+         for(j=0;j<=n-i-1;j++){
+            document.write("&nbsp;&nbsp;");
+         }
+        for(k=0;k<=i;k++){
+            document.write(ans + " ");
+            ans=ans*(i-k)/(k+1);
+        }
+        document.write("<br/>");
+    }
+
+    </script>
+</body>
+</html>
